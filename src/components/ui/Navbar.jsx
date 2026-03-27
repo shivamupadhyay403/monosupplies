@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css"
-const Navbar = () => {
+const Navbar = ({setShowQuiz}) => {
   return (
     <nav className="nav">
       <div className="nav-logo">

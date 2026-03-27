@@ -58,7 +58,7 @@ export default function App() {
       <style>{stylesGlobal}</style>
 
       {/* NAV */}
-      <Navbar />
+      <Navbar setShowQuiz={setShowQuiz}/>
 
       {/* HERO */}
       <Hero />
